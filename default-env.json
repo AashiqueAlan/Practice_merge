@@ -1,0 +1,13 @@
+
+{
+    "destinations": [
+        {
+            "name": "DEV-100-BasicAuthentication",
+            "url": "http://s4hanasrv1.local.com:8001",
+            "authentication": "BasicAuthentication",
+            "username": "Aashique",
+            "password": "Mohammed5%",
+            "sapClient": "100"
+        }
+    ]
+}

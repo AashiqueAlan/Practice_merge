@@ -1,0 +1,20 @@
+{
+  "name": "inspection-demo-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mcp-server-stdio.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mcp-server-stdio.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@sap-cloud-sdk/http-client": "^4.6.0",
+    "@sap/xsenv": "^6.2.0",
+    "zod": "^4.3.6"
+  }
+}
