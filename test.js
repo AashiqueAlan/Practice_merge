@@ -11,7 +11,8 @@ async function callBackend() {
   
     const response = await executeHttpRequest(
         {
-            destinationName: 'DEV-100-BasicAuthentication' 
+            destinationName: 'DEV-100-BasicAuthentication',
+            jwt: ""
         },
         {
             method: 'GET',
