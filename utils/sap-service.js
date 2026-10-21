@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-xsenv.loadEnv(join(__dirname, '..', 'default-env.json'));
+
 
 
 // const destination = await getDestination({destinationName:'DEV-100-BasicAuthentication'})

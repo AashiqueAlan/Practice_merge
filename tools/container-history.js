@@ -4,7 +4,7 @@ import z from "zod";
 export const containerHistoryToolName = 'get_container_history';
 export const containerHistoryDescription =
     'Use this tool when the user asks about a SPECIFIC container. ' +
-    'Examples: defects of a container, inspection status of a container, ' +
+  
     'who inspected a container, history of a container ID, ' +
     'whether a container was accepted or rejected. ' +
     'Requires containerId and a date range.';
