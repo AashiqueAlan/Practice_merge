@@ -11,13 +11,12 @@ async function callBackend() {
   
     const response = await executeHttpRequest(
         {
-            destinationName: 'DEV-100-BasicAuthentication',
-            jwt: ""
+            destinationName: 'DEV-100-BasicAuthentication'
+        
         },
         {
             method: 'GET',
             url: "/sap/opu/odata/sap/ZINSPECTION_APP_SRV/VH_CarrierlineSet",
-
         }
     );
     console.log(JSON.stringify(response.data,null,2))
